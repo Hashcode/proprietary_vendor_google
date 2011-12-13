@@ -14,31 +14,32 @@
 
 # Common Applications
 BUILD_PREBUILT += \
-    vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
-    vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
-    vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
-    vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-    vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
-    vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-    vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-    vendor/google/prebuilt/app/GooglePackageVerifier.apk:system/app/GooglePackageVerifier.apk \
-    vendor/google/prebuilt/app/GooglePackageVerifierUpdater.apk:system/app/GooglePackageVerifierUpdater.apk \
-    vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-    vendor/google/prebuilt/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
-    vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-    vendor/google/prebuilt/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
-    vendor/google/prebuilt/app/Maps.apk:system/app/Maps.apk \
-    vendor/google/prebuilt/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
-    vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
-    vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-    vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
-    vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
-    vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
-    vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
+    vendor/google/prebuilt/app/CarHomeGoogle.apk \
+    vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk \
+    vendor/google/prebuilt/app/GenieWidget.apk \
+    vendor/google/prebuilt/app/Gmail.apk \
+    vendor/google/prebuilt/app/GoogleBackupTransport.apk \
+    vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk \
+    vendor/google/prebuilt/app/GoogleEarth.apk \
+    vendor/google/prebuilt/app/GoogleFeedback.apk \
+    vendor/google/prebuilt/app/GoogleLoginService.apk \
+    vendor/google/prebuilt/app/GooglePackageVerifier.apk \
+    vendor/google/prebuilt/app/GooglePackageVerifierUpdater.apk \
+    vendor/google/prebuilt/app/GooglePartnerSetup.apk \
+    vendor/google/prebuilt/app/GoogleQuickSearchBox.apk \
+    vendor/google/prebuilt/app/GoogleServicesFramework.apk \
+    vendor/google/prebuilt/app/GoogleTTS.apk \
+    vendor/google/prebuilt/app/Maps.apk \
+    vendor/google/prebuilt/app/MarketUpdater.apk \
+    vendor/google/prebuilt/app/MediaUploader.apk \
+    vendor/google/prebuilt/app/NetworkLocation.apk \
+    vendor/google/prebuilt/app/OneTimeInitializer.apk \
+    vendor/google/prebuilt/app/SetupWizard.apk \
+    vendor/google/prebuilt/app/Vending.apk \
+    vendor/google/prebuilt/app/VoiceSearch.apk \
+    vendor/google/prebuilt/app/YouTube.apk
 
+# Camera doesn't work right now
 #    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
 #    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
 
