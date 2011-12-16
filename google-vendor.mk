@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
     vendor/google/prebuilt/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
     vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+    vendor/google/prebuilt/app/LatinImeDictionaryPack:system/app/LatinImeDictionaryPack \
     vendor/google/prebuilt/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/google/prebuilt/app/Maps.apk:system/app/Maps.apk \
     vendor/google/prebuilt/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
