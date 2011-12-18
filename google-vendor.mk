@@ -15,7 +15,8 @@
 # Common Applications
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
-    vendor/google/prebuilt/app/CalendarProviderGoogle.apk:system/app/CalendarProviderGoogle.apk \
+    vendor/google/prebuilt/app/CalendarProviderGoogle.apk:system/app/CalendarProvider.apk \
+    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/Calendar.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
@@ -39,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
+    vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
 # Camera doesn't work right now
