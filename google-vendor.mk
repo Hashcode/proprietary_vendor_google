@@ -40,12 +40,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
-    vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
-# Camera doesn't work right now
-#    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
-#    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
+ifeq ($(TARGET_DEVICE),toro)
+PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk \
+    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
+    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
+endif
 
 # Common Permissions
 PRODUCT_COPY_FILES += \
