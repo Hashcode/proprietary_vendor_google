@@ -46,7 +46,7 @@ ifeq ($(TARGET_DEVICE),toro)
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk \
     vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
-    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
+    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk 
 endif
 
 # Common Permissions
