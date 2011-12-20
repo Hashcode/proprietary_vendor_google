@@ -65,10 +65,10 @@ PRODUCT_COPY_FILES += \
 # Common Libraries
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/google/prebuilt/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so
-
+    
+#    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
 # Common Vendor
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin \
