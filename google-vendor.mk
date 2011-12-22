@@ -14,6 +14,7 @@
 
 # Common Applications
 PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/app/BackupRestoreConfirmation.apk:system/app/BackupRestoreConfirmation.apk \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/CalendarProviderGoogle.apk:system/app/CalendarProvider.apk \
     vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/Calendar.apk \
@@ -30,15 +31,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
     vendor/google/prebuilt/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
     vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-    vendor/google/prebuilt/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/google/prebuilt/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
+    vendor/google/prebuilt/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/google/prebuilt/app/Maps.apk:system/app/Maps.apk \
     vendor/google/prebuilt/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
     vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
+    vendor/google/prebuilt/app/Music2.apk:system/app/Music2.apk \
     vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/google/prebuilt/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/google/prebuilt/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
-    vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
+    vendor/google/prebuilt/app/Videos.apk:system/app/Videos.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
@@ -64,11 +68,20 @@ PRODUCT_COPY_FILES += \
 
 # Common Libraries
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/google/prebuilt/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
-    vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so
-    
+    vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/google/prebuilt/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+    vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
+    vendor/google/prebuilt/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
+    vendor/google/prebuilt/lib/libmotricity.so:system/lib/libmotricity.so \
+    vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
+    vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
+    vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+
+#    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
+#    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
 #    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+
 # Common Vendor
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.3/left_eye-y0-yi45-p0-pi45-r0-ri20.2d_n2/full_model.bin \
