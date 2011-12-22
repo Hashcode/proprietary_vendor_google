@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/google/prebuilt/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+    vendor/google/prebuilt/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
     vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/google/prebuilt/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/google/prebuilt/lib/libmotricity.so:system/lib/libmotricity.so \
