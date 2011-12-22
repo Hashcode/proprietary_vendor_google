@@ -14,7 +14,7 @@
 
 include $(all-subdir-makefiles)
 
-PRODUCT_COPY_FILES += \
+PRODUCT_PACKAGES := \
 	GoogleBackupTransport \
 
 # Common Applications
