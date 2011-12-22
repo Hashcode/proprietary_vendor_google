@@ -80,10 +80,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
 
 #    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
 #    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-#    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
 
 # Common Vendor
 PRODUCT_COPY_FILES += \
