@@ -14,7 +14,6 @@
 
 # Common Applications
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/app/BackupRestoreConfirmation.apk:system/app/BackupRestoreConfirmation.apk \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/CalendarProviderGoogle.apk:system/app/CalendarProvider.apk \
     vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/Calendar.apk \
@@ -96,3 +95,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rn30-ri30.5/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rn30-ri30.5/full_model.bin \
     vendor/google/prebuilt/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rp30-ri30.5/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.3/head-y0-yi45-p0-pi45-rp30-ri30.5/full_model.bin \
     vendor/google/prebuilt/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
+
+LOCAL_PATH:=\$(call my-dir)/prebuilt/app
+
+include \$(CLEAR_VARS)
+
+LOCAL_MODULE := BackupRestoreConfirmation
+LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
+include \$(BUILD_PREBUILT)
