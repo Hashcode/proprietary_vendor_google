@@ -14,15 +14,18 @@
 
 include $(all-subdir-makefiles)
 
+PRODUCT_COPY_FILES += \
+	GoogleBackupTransport \
+
 # Common Applications
 PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/app/BackupRestoreConfirmation.apk:system/app/BackupRestoreConfirmation.apk \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
-    vendor/google/prebuilt/app/CalendarProviderGoogle.apk:system/app/CalendarProvider.apk \
-    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/Calendar.apk \
+    vendor/google/prebuilt/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
+    vendor/google/prebuilt/app/Calendar.apk:system/app/Calendar.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
-    vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
