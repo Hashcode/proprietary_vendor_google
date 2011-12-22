@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/google/prebuilt/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
-    vendor/google/prebuilt/app/Videos.apk:system/app/Videos.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
