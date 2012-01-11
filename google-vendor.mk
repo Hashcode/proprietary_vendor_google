@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/google/prebuilt/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/google/prebuilt/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
+    vendor/google/prebuilt/app/LatinImeGoogle.apk:system/app/LatinIME.apk \
     vendor/google/prebuilt/app/Maps.apk:system/app/Maps.apk \
     vendor/google/prebuilt/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
     vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
@@ -51,9 +52,21 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(TARGET_DEVICE),toro)
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk \
+    vendor/google/prebuilt/app/CameraGoogle.apk:system/app/Camera.apk \
+    vendor/google/prebuilt/app/BrowserGoogle.apk:system/app/Browser.apk \
+    vendor/google/prebuilt/app/EmailGoogle.apk:system/app/Email.apk \
+    vendor/google/prebuilt/app/ExchangeGoogle.apk:system/app/Exchange.apk \
     vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
-    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk 
+    vendor/google/prebuilt/app/GalleryGoogle.apk:system/app/Gallery2.apk \
+    vendor/google/prebuilt/app/NfcGoogle.apk:system/app/Nfc.apk \
+    vendor/google/prebuilt/app/Street.apk:system/app/Street.apk \
+    vendor/google/prebuilt/app/TagGoogle.apk:system/app/TagGoogle.apk \
+    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
+    vendor/google/prebuilt/app/Thinkfree.apk:system/app/Thinkfree.apk \
+    vendor/google/prebuilt/app/VideoEditorGoogle.apk:system/app/VideoEditor.apk \
+    vendor/google/prebuilt/app/Videos.apk:system/app/Videos.apk \
+    vendor/google/prebuilt/app/VoiceDialer.apk:system/app/VoiceDialer.apk \
+    vendor/google/prebuilt/app/Wallet.apk:system/app/Wallet.apk 
 endif
 
 # Common Permissions
@@ -80,10 +93,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
 
-#    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-#    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
+ifeq ($(TARGET_DEVICE),toro)
+PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
+    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so 
+endif
 
 # Common Vendor
 PRODUCT_COPY_FILES += \
