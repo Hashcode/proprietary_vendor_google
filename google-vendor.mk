@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/google/prebuilt/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
+    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
@@ -61,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/NfcGoogle.apk:system/app/Nfc.apk \
     vendor/google/prebuilt/app/Street.apk:system/app/Street.apk \
     vendor/google/prebuilt/app/TagGoogle.apk:system/app/TagGoogle.apk \
-    vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/google/prebuilt/app/VideoEditorGoogle.apk:system/app/VideoEditor.apk \
     vendor/google/prebuilt/app/Videos.apk:system/app/Videos.apk \
@@ -93,13 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
+    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
 
-ifeq ($(TARGET_DEVICE),toro)
-PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so 
-endif
 
 # Common Vendor
 PRODUCT_COPY_FILES += \
