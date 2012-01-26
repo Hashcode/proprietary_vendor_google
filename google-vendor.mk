@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/google/prebuilt/lib/llibvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
+    vendor/google/prebuilt/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so 
 
 
